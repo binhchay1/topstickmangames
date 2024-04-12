@@ -584,12 +584,6 @@ h4 { font-size: 14px; }
   color: #fff;
 }
 
-/* IE 6 */
-* html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-}
-
 #footer .menu-footer {
   float: left;
 }
@@ -641,7 +635,6 @@ a#inifiniteLoaderEnd{
   background: #423780 url(images/dg.png) repeat-x bottom;
   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
   border-bottom: 1px solid #423780;
-  float: left;
   width: 100%;
   margin-bottom: 15px;
 }
